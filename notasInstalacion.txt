@@ -1,0 +1,10 @@
+npm install rxjs@6 rxjs-compat@6 --save
+mvn install:install-file -DgroupId=oracle.jdbc -DartifactId=ojdbc -Dversion=6 -Dpackaging=jar -Dfile=ojdbc6-11.2.0.3.jar -DgeneratePom=true
+mvn -Declipse.workspace="C:\ULCC\WKSPC" eclipse:configure-workspace
+
+Missing artifact org.aspectj:com.springsource.org.aspectj.weaver:jar:1.6.8.RELEASE
+
+for /r %i in (*.lastUpdated) do del %i
+find ~/.m2  -name "*.lastUpdated" -exec grep -q "Could not transfer" {} \; -print -exec rm {} \;
+
+C:\Users\hp\.m2\repository\com\banorte\adquirente\cib\cib-model\1.0\cib-model-1.0.jar

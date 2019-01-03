@@ -1,0 +1,14 @@
+git config --global user.email "ulises.cortes@softtek.com"
+git config --global user.name
+
+git init voy a empezar a utilizar en este proyecto git
+
+git add <file> pasar archivos working directory a stagin area
+git status ver estado de los archivos wk dir
+git commit pasar staggin a repo
+git push subirlo a repo remoto
+git pull trae cambios de otros desa
+git clone copia de servidor central
+
+git branch <rama>
+git checkout mueve a una rama
